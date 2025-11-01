@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="[SRq`fZ;+$raq[.aieg4">mySprite</variable><variable type="KIND_SpriteKind" id="8V_fEEnm#sT{s731!]N@">Player</variable><variable type="KIND_SpriteKind" id="5y+O}8cOcn=4PE|z[$Mn">Projectile</variable><variable type="KIND_SpriteKind" id="jUVur?g4^={_skrYD7dl">Food</variable><variable type="KIND_SpriteKind" id="eZ~^g)QSm8Iw-pTwNVB#">Enemy</variable></variables><block type="pxt-on-start" id="k;$X,.c8UB}7C+RSj~vY" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="zsq)vS.gmh8,a,D_}kTE"><field name="VAR" id="[SRq`fZ;+$raq[.aieg4">mySprite</field><value name="VALUE"><shadow type="math_number" id="AWXJu=BPOvzu$?_sF;uk"><field name="NUM">0</field></shadow><block type="spritescreate" id="OGZtg?lf/5:Oo,~;r]Mp"><value name="img"><shadow type="screen_image_picker" id="dYmc5RU#kOFfc6WE6Ui]"><field name="img">img`
+. . f f f . . . . . . . . f f f 
+. f f c c . . . . . . f c b b c 
+f f c c . . . . . . f c b b c . 
+f c f c . . . . . . f b c c c . 
+f f f c c . c c . f c b b c c . 
+f f c 3 c c 3 c c f b c b b c . 
+f f b 3 b c 3 b c f b c c b c . 
+. c b b b b b b c b b c c c . . 
+. c 1 b b b 1 b b c c c c . . . 
+c b b b b b b b b b c c . . . . 
+c b c b b b c b b b b f . . . . 
+f b 1 f f f 1 b b b b f c . . . 
+f b b b b b b b b b b f c c . . 
+. f b b b b b b b b c f . . . . 
+. . f b b b b b b c f . . . . . 
+. . . f f f f f f f . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="xsE3ArL=u:rT~j2$f-0T"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="tcjw=`x-u1kc=Q]N0Vbi" x="-10" y="155"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="function_call" id="D[DJ@x[P3Ot;@nr@9F:r"><mutation name="Zoom in by" functionid="-;`h-(//N28,`b.}t+|,"><arg name="Zoom" id="SXW9Kz6j___pOXrK:o+s" type="number"></arg></mutation><value name="SXW9Kz6j___pOXrK:o+s"><shadow type="math_number" id="9=yMTD5CPi#.zBy=~X?m"><field name="NUM">5</field></shadow></value></block></statement></block><block type="function_definition" id="!!1$npjPf8%@`B!g^Bxe" x="-17" y="314"><mutation name="Zoom in by" functionid="-;`h-(//N28,`b.}t+|,"><arg name="Zoom" id="SXW9Kz6j___pOXrK:o+s" type="number"></arg></mutation><field name="function_name">Zoom in by</field><value name="SXW9Kz6j___pOXrK:o+s"><block type="argument_reporter_number" id="!gc@FD|Ma[^iONfc407I"><mutation duplicateondrag="true"></mutation><field name="VALUE">Zoom</field></block></value><statement name="STACK"><block type="Sprite_blockCombine_change" id="48o+8,z]#jPNK|-}1?:g"><field name="propiedad">Sprite.scale@set</field><value name="mySprite"><block type="variables_get" id="%PD7M#VhQEyiAy7~zxL("><field name="VAR" id="[SRq`fZ;+$raq[.aieg4">mySprite</field></block></value><value name="value"><shadow type="math_number" id="OKx@Zn%B!psgd6Dz;Rx5"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="*$dksxhR$Wv5iVrdQp`G"><field name="VALUE">Zoom</field></block></value></block></statement></block></xml>
